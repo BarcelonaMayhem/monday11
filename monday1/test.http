@@ -1,0 +1,27 @@
+﻿GET https://localhost:7065/toys
+
+###
+
+POST https://localhost:7065/toys/add
+Content-type: application/json
+
+{
+    "name" : "Машинка",
+    "color" : "Черный",
+    "price" : "3000"
+}
+
+###
+
+PUT https://localhost:7065/3000
+Content-type: application/json
+
+{
+    "name" : "Слоник",
+    "color" : "Охра",
+    "price" : "1400"
+}
+
+###
+
+DELETE https://localhost:7065/delete/3000
